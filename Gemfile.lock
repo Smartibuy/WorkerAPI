@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.7)
+    jieba-jruby (0.0.1)
     json (1.8.3)
     json (1.8.3-java)
     minitest (5.8.1)
@@ -30,6 +31,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jieba-jruby
   json
   minitest
   rack
