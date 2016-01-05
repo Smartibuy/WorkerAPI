@@ -1,6 +1,6 @@
 # encoding: UTF-8
 require 'sinatra/base'
-require 'jieba'
+ #require 'jieba'
 require 'json'
 
 class ApplicationController < Sinatra::Base
