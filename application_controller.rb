@@ -14,8 +14,8 @@ class ApplicationController < Sinatra::Base
       halt 404
     end
     keyword = req['keyword']
-    # keyword_arr = keyword.to_tags
-    # keyword_arr.to_json
+    keyword_arr = keyword.to_tags
+    keyword_arr.to_json
   end
   get '/' do
     'WorkerAPI'
